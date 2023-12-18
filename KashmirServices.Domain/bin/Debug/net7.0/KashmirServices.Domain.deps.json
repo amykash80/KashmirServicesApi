@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "KashmirServices.Domain/1.0.0": {
+        "runtime": {
+          "KashmirServices.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KashmirServices.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

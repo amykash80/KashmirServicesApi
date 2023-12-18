@@ -1,0 +1,15 @@
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Application\bin\Debug\net7.0\KashmirServices.Application.deps.json
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Application\bin\Debug\net7.0\KashmirServices.Application.dll
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Application\bin\Debug\net7.0\KashmirServices.Application.pdb
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Application\bin\Debug\net7.0\KashmirServices.Domain.dll
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Application\bin\Debug\net7.0\KashmirServices.Domain.pdb
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Application\obj\Debug\net7.0\KashmirServices.Application.csproj.AssemblyReference.cache
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Application\obj\Debug\net7.0\KashmirServices.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Application\obj\Debug\net7.0\KashmirServices.Application.AssemblyInfoInputs.cache
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Application\obj\Debug\net7.0\KashmirServices.Application.AssemblyInfo.cs
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Application\obj\Debug\net7.0\KashmirServices.Application.csproj.CoreCompileInputs.cache
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Application\obj\Debug\net7.0\KashmirServices.Application.csproj.CopyComplete
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Application\obj\Debug\net7.0\KashmirServices.Application.dll
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Application\obj\Debug\net7.0\refint\KashmirServices.Application.dll
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Application\obj\Debug\net7.0\KashmirServices.Application.pdb
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Application\obj\Debug\net7.0\ref\KashmirServices.Application.dll

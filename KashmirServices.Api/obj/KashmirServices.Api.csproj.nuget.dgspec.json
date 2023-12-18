@@ -1,0 +1,411 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Api\\KashmirServices.Api.csproj": {}
+  },
+  "projects": {
+    "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirService.Infrastructure\\KashmirService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirService.Infrastructure\\KashmirService.Infrastructure.csproj",
+        "projectName": "KashmirService.Infrastructure",
+        "projectPath": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirService.Infrastructure\\KashmirService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirService.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Application\\KashmirServices.Application.csproj": {
+                "projectPath": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Application\\KashmirServices.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Mailjet.Api": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "RazorLight": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "RazorPay.Core": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Api\\KashmirServices.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Api\\KashmirServices.Api.csproj",
+        "projectName": "KashmirServices.Api",
+        "projectPath": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Api\\KashmirServices.Api.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirService.Infrastructure\\KashmirService.Infrastructure.csproj": {
+                "projectPath": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirService.Infrastructure\\KashmirService.Infrastructure.csproj"
+              },
+              "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Application\\KashmirServices.Application.csproj": {
+                "projectPath": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Application\\KashmirServices.Application.csproj"
+              },
+              "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Persistence\\KashmirServices.Persistence.csproj": {
+                "projectPath": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Persistence\\KashmirServices.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Application\\KashmirServices.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Application\\KashmirServices.Application.csproj",
+        "projectName": "KashmirServices.Application",
+        "projectPath": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Application\\KashmirServices.Application.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Domain\\KashmirServices.Domain.csproj": {
+                "projectPath": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Domain\\KashmirServices.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.21.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.21.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Domain\\KashmirServices.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Domain\\KashmirServices.Domain.csproj",
+        "projectName": "KashmirServices.Domain",
+        "projectPath": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Domain\\KashmirServices.Domain.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Persistence\\KashmirServices.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Persistence\\KashmirServices.Persistence.csproj",
+        "projectName": "KashmirServices.Persistence",
+        "projectPath": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Persistence\\KashmirServices.Persistence.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Application\\KashmirServices.Application.csproj": {
+                "projectPath": "E:\\ProjectRepository\\kashmirService\\KashmirServices-Api\\KashmirServices.Application\\KashmirServices.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

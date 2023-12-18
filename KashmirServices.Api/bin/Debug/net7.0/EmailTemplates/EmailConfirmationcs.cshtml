@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email confirmation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main-container {
+            max-width: 640px;
+            margin: 0 auto;
+            box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+            overflow: hidden;
+            background-color:#1E90FF;
+        }
+
+        .container {
+            margin: 0px auto;
+            max-width: 640px;
+            height: 100px;
+            background: #1E90FF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .title {
+            color: white;
+            font-size: 35px;
+            font-weight: 600px;
+            font-family: Whitney, Helvetica Neue, Helvetica, Arial,
+                Lucida Grande, sans-serif;
+        }
+
+        .box1 {
+            width: 100vw;
+
+
+        }
+
+        .box1 {
+            width: 100vw;
+            height: 400px;
+            background: url(https://img.freepik.com/free-photo/message-online-chat-social-text-concept_53876-167132.jpg?w=740&t=st=1698491032~exp=1698491632~hmac=258bd3b4d43aaaa47c377f3455dc70e2b521004cdeb0b1364bc0eb939a3ddf2f) no-repeat;
+
+        }
+
+
+        .heading {
+
+            font-family: Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            color: white;
+            letter-spacing: 0.27px;
+            margin-top: 10px;
+            padding: 0px 30px;
+        }
+
+        p {
+            display: block;
+            margin: 13px 0;
+            line-height: 20px;
+            padding: 0px 30px;
+            font-size: 15px;
+            text-align: justify;
+        }
+        .below-link{
+            text-align: center;
+        }
+        .verify-email {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            background:  #0000FF;
+            line-height: 100%;
+            padding: 10px;
+            border-radius: 3px;
+            border: none;
+
+        }
+
+        button a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .heading2 h2 {
+            margin-top: 10px;
+            padding: 0px 30px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .copy-link {
+            margin-top: 10px;
+            padding: 0px 30px;
+            text-align: center;
+        }
+
+        button:hover {
+            background-color:#2facd6;
+
+        }
+
+        .footer1 {
+            cursor: auto;
+            color: #99aab5;
+            font-family: Whitney, Helvetica Neue, Helvetica,
+                Arial, Lucida Grande, sans-serif;
+            font-size: 12px;
+            line-height: 24px;
+            text-align: center;
+        }
+
+        .footer2 {
+            cursor: auto;
+            color: #99aab5;
+            font-family: Whitney, Helvetica Neue, Helvetica,
+                Arial, Lucida Grande, sans-serif;
+            font-size: 12px;
+            line-height: 24px;
+            text-align: center;
+        }
+
+        @media only screen and (max-width: 480px) {
+            @-ms-viewport {
+                width: 320px;
+            }
+
+            @viewport {
+                width: 320px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="title">
+                Welcome to @Model.CompanyName!
+            </div>
+        </div>
+        <div class="box1">
+
+        </div>
+
+        <h2 class="heading">
+            Hey @Model.Name,
+        </h2>
+      
+        <p>
+            Welcome to @Model.CompanyName! We're thrilled to have you on
+            board. Before you can start using our services, we need to
+            verify your email address.
+        </p>
+        <p class="below-link">
+            Click the link below to verify your email and activate your
+            account:
+        </p>
+        <div class="verify-email">
+            <button><a href="#" target="_blank">Verify Email</a></button>
+        </div>
+        <div class="heading2">
+            <h2>
+                If above link does not work please copy and paste the below link on the url
+
+            </h2>
+            <p class="copy-link">
+                Copy Link Here.........................
+            </p>
+        </div>
+
+    </div>
+    <div class="footer1">
+        Sent by @Model.CompanyName •
+    </div>
+    <div class="footer2">
+        Srinagar Jammu and Kashmir India, 190005
+    </div>
+</body>
+
+</html>

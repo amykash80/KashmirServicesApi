@@ -1,0 +1,12 @@
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Domain\bin\Debug\net7.0\KashmirServices.Domain.deps.json
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Domain\bin\Debug\net7.0\KashmirServices.Domain.dll
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Domain\bin\Debug\net7.0\KashmirServices.Domain.pdb
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Domain\obj\Debug\net7.0\KashmirServices.Domain.csproj.AssemblyReference.cache
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Domain\obj\Debug\net7.0\KashmirServices.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Domain\obj\Debug\net7.0\KashmirServices.Domain.AssemblyInfoInputs.cache
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Domain\obj\Debug\net7.0\KashmirServices.Domain.AssemblyInfo.cs
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Domain\obj\Debug\net7.0\KashmirServices.Domain.csproj.CoreCompileInputs.cache
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Domain\obj\Debug\net7.0\KashmirServices.Domain.dll
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Domain\obj\Debug\net7.0\refint\KashmirServices.Domain.dll
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Domain\obj\Debug\net7.0\KashmirServices.Domain.pdb
+E:\ProjectRepository\kashmirService\KashmirServices-Api\KashmirServices.Domain\obj\Debug\net7.0\ref\KashmirServices.Domain.dll
